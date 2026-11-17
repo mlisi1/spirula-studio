@@ -196,7 +196,8 @@ coming at the end.
 - Meshing (done): `src/mesh/` renders moments through 3DGUT whatever the
   primitive. A flattened 3DGUT splat is evaluated at the ray-disc hit, and
   the meshes above reach the sweep's F, so no 2dgs moments kernel. DTU
-  Chamfer against meshing a 3DGS model is left to phase 7.
+  Chamfer against meshing a 3DGS model is left to phase 7, through the
+  paper's TSDF extraction too (docs/notes/tsdf-plan.md).
 
 ### 7. Validation and docs
 - Final table: 3DGS vs 2DGS on both backends — PSNR / SSIM / LPIPS, DTU
